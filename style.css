@@ -26,7 +26,7 @@ i {
 
 .header-icons a:hover i {
   animation: translateY 0.8s infinite alternate;
-  color: #d34040;
+  color: #00ccff;
 }
 
 @keyframes translateY {
@@ -47,8 +47,8 @@ i {
 }
 
 .header-button:hover {
-  border: 1px solid #d34040;
-  background-color: #d34040;
+  border: 1px solid #00ccff;
+  background-color: #00ccff;
 }
 
 .header-logo {
@@ -56,6 +56,8 @@ i {
   align-items: center;
   justify-content: center;
   margin-top: 14px;
+  width: 300px;
+  margin-left: 45px;
 }
 
 @media screen and (max-width: 768px) {
@@ -91,7 +93,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+  background-color: #000;
   left: 0;
   top: 0;
   width: 100%;
@@ -126,8 +128,9 @@ i {
 .button-contact {
   padding: 14px 28px;
   color: #fff;
-  background-color: #d94140;
+  background-color: #00ccff;
   border: 0;
+  border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
   margin: 14px 0;
@@ -184,6 +187,10 @@ i {
   flex: 1;
 }
 
+.about-description{
+  margin-left: 10px;
+}
+
 .about-description h2 {
   font-size: 38px;
   margin-bottom: 24px;
@@ -193,11 +200,35 @@ i {
   line-height: 150%;
 }
 
+.about-description a{
+  color: #00ccff;
+}
+
 @media screen and (max-width: 768px) {
   .about-content {
     flex-direction: column;
   }
 }
+
+.date-span{
+  background-color: green;
+  padding: 4px;
+  border-radius: 6px;
+  margin: 5px;
+}
+
+.date-span span{
+  font-weight:500;
+}
+
+.open-background {
+  background-color: green; 
+}
+
+.closed-background {
+  background-color: #ef4444; 
+}
+
 .services {
   background-color: #fff;
   color: #232224;
@@ -290,6 +321,15 @@ i {
   display: flex;
   gap: 8px;
   color: #fff;
+}
+
+.footer-icons a:hover i {
+  animation: translateY 0.8s infinite alternate;
+  color: #00ccff;
+}
+
+.footer img{
+  width: 10rem;
 }
 
 .btn-whatsapp {
